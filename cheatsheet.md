@@ -20,4 +20,9 @@
 
 ##### Moving files while preserving git history
 		git mv <source> <destination>
- 
+
+##### Pull branch from remote into local
+		git pull <remote name> <branch name>
+
+##### Push local branch to remote repository
+		git push <remote name> <branch name>
