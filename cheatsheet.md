@@ -19,7 +19,10 @@
 		git branch -d <branch name>
 
 ##### Moving files while preserving git history
-	git mv <source> <destination>
+		git mv <source> <destination>
 
-##### Creating a branch and moving to it in one command
-	git checkout -b <branch name>
+##### Pull branch from remote into local
+		git pull <remote name> <branch name>
+
+##### Push local branch to remote repository
+		git push <remote name> <branch name>
